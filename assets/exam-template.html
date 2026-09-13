@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="docx-page-size" content="A4">
+<title>道德与法治{{单元名}}检测卷</title>
+<style>
+:root {
+  --fs-title: 22pt; --fs-sub: 16pt; --fs-h2: 14pt; --fs-body: 11pt; --fs-note: 10.5pt;
+  --color-text: #000000; --color-border: #999999; --color-note-bg: #FFFFFF;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "仿宋", "FangSong", "宋体", serif; font-size: var(--fs-body); line-height: 1.7; color: var(--color-text); max-width: 15.6cm; margin: 0 auto; padding: 2cm 0; }
+h1 { font-family: "黑体", "SimHei", sans-serif; font-size: var(--fs-title); text-align: center; font-weight: 700; margin-bottom: 0.3em; letter-spacing: 0.1em; color: #000000; }
+.sub-title { font-family: "黑体", "SimHei", sans-serif; font-size: var(--fs-sub); text-align: center; font-weight: 700; margin-bottom: 1.2em; color: #000000; }
+h2 { font-family: "黑体", "SimHei", sans-serif; font-size: var(--fs-h2); font-weight: 700; margin: 1.2em 0 0.6em; color: #000000; }
+p { margin-bottom: 0.5em; text-align: justify; }
+.exam-head { text-align: center; font-family: "黑体", "SimHei", sans-serif; font-size: 14pt; margin-bottom: 0.2em; color: #000000; }
+.exam-note { font-size: var(--fs-note); margin-bottom: 1.2em; text-align: justify; }
+.q { margin-bottom: 1em; }
+.q-stem { margin-bottom: 0.35em; text-align: justify; }
+.opts p { margin-bottom: 0.22em; padding-left: 1.2em; text-indent: -1.2em; }
+.ans-table { border-collapse: collapse; margin: 0.5em 0 1em; }
+.ans-table th, .ans-table td { border: 1px solid var(--color-border); padding: 4px 14px; text-align: center; font-family: "Times New Roman", serif; font-size: 12pt; }
+.ans-table th { font-family: "黑体", "SimHei", sans-serif; font-weight: 700; }
+.answer-key { page-break-before: always; }
+.ans-item { margin-bottom: 0.8em; text-align: justify; }
+.ans-item .tag { font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- ============ 试卷部分（学生版保留） ============ -->
+<p class="exam-head">九年级上册《道德与法治》单元训练（自编）</p>
+<h1>道德与法治</h1>
+<p style="text-align:center; font-weight:700;">（{{年级册次}}{{单元名}}训练卷）</p>
+<div class="exam-note">
+说明：本卷为教材配套自编训练。考试时间 50 分钟，满分 50 分。请在题后作答区域完成作答。<br>
+本场考试形式为开卷书面考试，可查阅所带教材、资料，但不得相互讨论和借阅资料；不得携带任何电子产品设备进入考场。
+</div>
+
+<h2>一、填空题（共 5 题，每题 1 分，共 5 分）</h2>
+
+<!-- 每题一个 div.q；挖空处用长下划线 ____；题号从 1 连续编号 -->
+<div class="q">
+<p class="q-stem">1. {{填空题1题干，核心术语处挖空________________。}}</p>
+</div>
+<div class="q">
+<p class="q-stem">2. {{填空题2，一题可含两个空________________。}}</p>
+</div>
+<!-- 填空题 3-5 同构 -->
+
+<h2>二、单项选择题（共 10 题，每题 2 分，共 20 分。在每题四个选项中，只有一项最符合题意）</h2>
+
+<!-- 普通材料型选择题：材料 + 四选项各一行 -->
+<div class="q">
+<p class="q-stem">6. {{选择题材料……}}上述材料表明{{设问}}</p>
+<div class="opts">
+<p>A. {{选项}}</p>
+<p>B. {{选项}}</p>
+<p>C. {{选项}}</p>
+<p>D. {{选项}}</p>
+</div>
+</div>
+
+<!-- 组合式选择题：题干列①②③④，选项同一行全角空格分隔 -->
+<div class="q">
+<p class="q-stem">7. {{选择题材料}}<br>①{{表述}}<br>②{{表述}}<br>③{{表述}}<br>④{{表述}}</p>
+<div class="opts">
+<p>A. ①②　　B. ①③④　　C. ②③　　D. ①②③④</p>
+</div>
+</div>
+
+<!-- 漫画题（每卷至少 1 道，深圳真题常驻题型）：PNG 用 scripts/draw_comic.py 绘制放同目录；width 写像素数字 -->
+<div class="q">
+<p class="q-stem">8. 观察下面漫画《{{漫画标题}}》，对漫画寓意认识正确的有<br>①{{表述}}<br>②{{表述}}<br>③{{表述}}<br>④{{表述}}</p>
+<p style="text-align:center;"><img src="{{漫画文件名}}.png" width="1100"></p>
+<div class="opts">
+<p>A. ①②③　　B. ①②④　　C. ②③④　　D. ①③④</p>
+</div>
+</div>
+<!-- 选择题 9-15 同构；其中安排 1-2 题深圳本土素材、1 题易错辨析 -->
+
+<h2>三、材料题（共 1 题，共 25 分）</h2>
+
+<div class="q">
+<p class="q-stem">16. 阅读材料，回答问题。</p>
+<p><b>材料一：</b>{{精神谱系/重大历史题材材料}}</p>
+<p>（1）根据材料一及所学知识，{{意义分析类设问}}。（10 分）</p>
+<p><b>材料二：</b>{{民生/深圳本土案例材料}}</p>
+<p>（2）结合上述材料、结合所学知识，{{为什么+怎么做+青少年怎么做复合设问}}。（15 分）</p>
+</div>
+
+<!-- ============ 答案部分（脚本自动拆分为答案版） ============ -->
+<div class="answer-key">
+<p class="exam-head">九年级上册《道德与法治》单元训练（自编）</p>
+<h1>道德与法治（{{单元名}}检测卷）</h1>
+<p style="text-align:center; font-weight:700; margin-bottom:1em;">参考答案</p>
+
+<h2>一、填空题（共 5 题，每题 1 分，共 5 分）</h2>
+<p>1. {{答案}}　　2. {{答案}}　　3. {{答案}}　　4. {{答案}}　　5. {{答案}}</p>
+
+<h2>二、单项选择题（共 10 题，每题 2 分，共 20 分）</h2>
+<table class="ans-table">
+<thead><tr><th>题号</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th></tr></thead>
+<tbody><tr><td><b>答案</b></td><td>{{X}}</td><td>{{X}}</td><td>{{X}}</td><td>{{X}}</td><td>{{X}}</td><td>{{X}}</td><td>{{X}}</td><td>{{X}}</td><td>{{X}}</td><td>{{X}}</td></tr></tbody>
+</table>
+
+<!-- 逐题解析：每题一个 div.ans-item，指出考点与干扰项错误 -->
+<div class="ans-item"><b>6.</b> {{解析：考点 + 正确项依据 + 干扰项错在哪}}</div>
+<div class="ans-item"><b>7.</b> {{解析}}</div>
+<!-- 解析 8-15 同构 -->
+
+<h2>三、材料题（共 1 题，共 25 分）</h2>
+<div class="ans-item">
+<b>16.（1）（10 分，每点 2 分，答出 5 点即可）</b><br>
+①{{要点}}；<br>
+②{{要点}}；<br>
+{{……分层赋分要点，每点标号}}
+<b>（2）（15 分）</b><br>
+为什么{{……}}（8 分，每点 2 分，答出 4 点即可）：<br>
+①{{要点}}；②{{要点}}……<br>
+怎么做{{……}}（4 分，答出 3 点即可）：①{{要点}}；②{{要点}}……<br>
+青少年{{……}}（3 分，每点 1 分）：①{{要点}}；②{{要点}}……
+</div>
+
+<p style="margin-top:2em; font-size:10pt; color:#000000;">命题范围：统编版《道德与法治》{{年级册次}}{{单元名}}（{{所含课目}}）。题型结构参照公开的深圳道法开卷训练信息设计，为教材配套自编训练；素材来源：{{知识库/教材与时政来源说明}}。</p>
+</div>
+
+</body>
+</html>
+
+
