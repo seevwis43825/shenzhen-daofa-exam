@@ -1,0 +1,4 @@
+interface:
+  display_name: "深圳道法专题答卷"
+  short_description: "生成知识全覆盖、含评分解析与模板的深圳道法专题答卷册"
+  default_prompt: "使用 $shenzhen-daofa-topic-training 生成一份知识全覆盖的深圳九年级道法专题答卷。"
